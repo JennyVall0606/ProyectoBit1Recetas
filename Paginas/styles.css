@@ -144,14 +144,14 @@ a {
 }
 
 #detalles table tr {
-  border-bottom: 1px solid #7e4333;
+  border-bottom: 1px solid #f7ae95;
 }
 
 #detalles table tr td {
   padding: 8px;
 }
 .number {
-  color: #7e4333;
+  color: #f7ae95;
 }
 #masrecetas {
   grid-area: masrecetas;
@@ -205,6 +205,59 @@ footer .nav1y2 h3 {
   padding-top: 10px;
   font-family: DM Serif Display;
 }
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode header .nav1y2 h1 a,
+.dark-mode footer .nav1y2 h1 {
+  color: #fff;
+}
+
+.dark-mode #grid-container .platos h3 {
+  color: #fff;
+}
+
+.dark-mode #grid-container .platos ul {
+  color: #ddd;
+}
+
+.dark-mode #grid-container .platos {
+  background-color: #555; 
+}
+
+.dark-mode main h2 {
+  color: #fff;
+}
+
+.dark-mode #cuadro1{
+  background-color: #555;
+  h1, p {
+    color: #fff;
+  }
+  
+}
+
+.dark-mode #detalles{
+  background-color : #555;
+}
+
+.dark-mode #tiempococcion{
+  background-color: #555;
+  
+  
+}
+
+.dark-mode #masrecetas{
+  background-color : #555;
+  h3, p {
+    color: white;
+  }
+}
+
+
 
 @media (max-width: 768px) {
   main {

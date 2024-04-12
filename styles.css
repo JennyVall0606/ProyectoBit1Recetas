@@ -276,6 +276,37 @@ footer .nav1y2 h3 {
   font-family: DM Serif Display;
 }
 
+/* modo oscuro ================================================================================================================================ */
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode header .nav1y2 h1 a,
+.dark-mode footer .nav1y2 h1 {
+  color: #fff;
+}
+
+.dark-mode #grid-container .platos h3 {
+  color: #fff;
+}
+
+.dark-mode #grid-container .platos ul {
+  color: #ddd;
+}
+
+.dark-mode #grid-container .platos {
+  background-color: #555; 
+}
+
+.dark-mode main h2 {
+  color: #fff;
+}
+
+
+/* modo oscuro ================================================================================================================================ */
+
 @media (max-width: 768px) {
   main {
     #grid-container {
