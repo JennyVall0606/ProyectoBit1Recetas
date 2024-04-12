@@ -135,6 +135,7 @@ main #Preparacion1 a img {
   color: black;
   font-size: 16px;
   margin-top: 11px;
+  font-family: DM Sans;
 }
 
 #Preparacion2 {
@@ -156,6 +157,7 @@ main #Preparacion1 a img {
   color: black;
   font-size: 16px;
   margin-top: 11px;
+  font-family: DM Sans;
 }
 
 #Preparacion3 {
@@ -178,6 +180,7 @@ main #Preparacion1 a img {
   color: black;
   font-size: 16px;
   margin-top: 11px;
+  font-family: DM Sans;
 }
 #Preparacion4 {
   grid-area: Preparacion4;
@@ -199,6 +202,7 @@ main #Preparacion1 a img {
   color: black;
   font-size: 16px;
   margin-top: 11px;
+  font-family: DM Sans;
 }
 
 #Preparacion5 {
@@ -221,6 +225,7 @@ main #Preparacion1 a img {
   color: black;
   font-size: 16px;
   margin-top: 11px;
+  font-family: DM Sans;
 }
 
 #Preparacion6 {
@@ -243,6 +248,7 @@ main #Preparacion1 a img {
   color: black;
   font-size: 16px;
   margin-top: 11px;
+  font-family: DM Sans;
 }
 a {
   text-decoration: none;
