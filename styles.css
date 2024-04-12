@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+#container {
+  height: 120vh;
+  display: grid;
+  grid-template-rows: 110px 1fr 110px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+header {
+  position: relative;
+  grid-area: 1/1/2/5;
+}
+.nav1y2 {
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.bitcooka {
+  margin-top: 7px;
+  position: relative;
+}
+
+.bitcooka a {
+  text-decoration: none;
+  color: white;
+  font-family: DM Serif Display;
+  position: relative;
+}
+.divboton {
+  display: flex;
+  gap: 10px;
+}
+.formulary {
+  margin-top: 15px;
+}
+.formulary a {
+  text-decoration: none;
+  color: white;
+  font-family: DM Serif Display;
+}
+.botoncito {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Hace que el botón sea redondo */
+  border: none;
+  background-color: rgb(238, 231, 231); /* Color inicial */
+  font-size: 25px;
+}
+main {
+  display: grid;
+  grid-area: 2/1/3/5;
+}
+.fotoprincipal {
+  background-image: url(./images/FONDO\ COMIDA\ MEXICO.jpeg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  height: 368px;
+  max-width: 1239px;
+  border: 0px solid black;
+  margin: 15px auto;
+}
+.datosfotoprin {
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+}
+#grid-container {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1239px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 101px fit-content fit-content;
+  grid-template-areas:
+    "p p p"
+    "Preparacion1 Preparacion2 Preparacion3 "
+    "Preparacion4 Preparacion5 Preparacion6 ";
+  grid-gap: 20px;
+}
+#separador {
+  grid-area: p;
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+main h2 {
+  font-size: 24px;
+  color: #7e4333;
+  font-family: DM Serif Display;
+}
+.platos {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#Preparacion1 {
+  grid-area: Preparacion1;
+}
+
+main #Preparacion1 a img {
+  height: 248px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#Preparacion1 a h3 {
+  color: #7e4333;
+  font-size: 36px;
+}
+
+#Preparacion1 a ul {
+  color: black;
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+#Preparacion2 {
+  grid-area: Preparacion2;
+}
+
+#Preparacion2 a img {
+  height: 248px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+#Preparacion2 a h3 {
+  color: #7e4333;
+  font-size: 36px;
+}
+
+#Preparacion2 a ul {
+  color: black;
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+#Preparacion3 {
+  grid-area: Preparacion3;
+}
+
+#Preparacion3 a img {
+  height: 248px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#Preparacion3 a h3 {
+  color: #7e4333;
+  font-size: 36px;
+}
+
+#Preparacion3 a ul {
+  color: black;
+  font-size: 16px;
+  margin-top: 11px;
+}
+#Preparacion4 {
+  grid-area: Preparacion4;
+}
+
+#Preparacion4 a img {
+  height: 248px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#Preparacion4 a h3 {
+  color: #7e4333;
+  font-size: 36px;
+}
+
+#Preparacion4 a ul {
+  color: black;
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+#Preparacion5 {
+  grid-area: Preparacion5;
+}
+
+#Preparacion5 a img {
+  height: 248px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#Preparacion5 a h3 {
+  color: #7e4333;
+  font-size: 36px;
+}
+
+#Preparacion5 a ul {
+  color: black;
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+#Preparacion6 {
+  grid-area: Preparacion6;
+}
+
+#Preparacion6 a img {
+  height: 248px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+#Preparacion6 a h3 {
+  color: #7e4333;
+  font-size: 36px;
+}
+
+#Preparacion6 a ul {
+  color: black;
+  font-size: 16px;
+  margin-top: 11px;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  grid-area: 4/5/4/1;
+}
+.nav1y2 {
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.bitcookb {
+  color: white;
+  font-family: DM Serif Display;
+}
+footer .nav1y2 h3 {
+  color: white;
+  padding-top: 10px;
+  font-family: DM Serif Display;
+}
+
+@media (max-width: 768px) {
+  main {
+    #grid-container {
+      display: grid;
+      margin: 0 auto;
+      max-width: 1239px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 101px 440px 440px 440px;
+      grid-template-areas:
+        "p p"
+        "Preparacion1 Preparacion2"
+        "Preparacion3 Preparacion4"
+        "Preparacion5 Preparacion6";
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  main {
+    #grid-container {
+      display: flex;
+      margin: 0 auto;
+      max-width: 1239px;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

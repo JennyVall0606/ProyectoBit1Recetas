@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+#container {
+
+  grid-template-rows: 110px 1fr 110px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+header {
+  grid-area: 1/1/2/5;
+}
+.nav1y2 {
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.bitcooka {
+  margin-top: 7px;
+}
+
+.bitcooka a {
+  text-decoration: none;
+  color: white;
+  font-family: DM Serif Display;
+}
+.divboton {
+  display: flex;
+  gap: 10px;
+}
+.formulary {
+  margin-top: 15px;
+}
+.formulary a {
+  text-decoration: none;
+  color: white;
+  font-family: DM Serif Display;
+}
+.botoncito {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; 
+  border: none;
+  background-color: rgb(238, 231, 231); 
+  font-size: 25px;
+}
+main {
+  grid-area: 2/4/3/2;
+}
+.contenedorfomulary {
+  margin: 30px auto;
+  background-color: white;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 7px;
+}
+.contenedorfomulary h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #7e4333;
+}
+.contenedorfomulary p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+.form-esp {
+  padding-top: 10px;
+}
+.form-esp input,
+.form-esp textarea {
+  margin: 5px;
+  width: 100%;
+  background-color: #f5dcdc;
+  border: none;
+}
+.form-esp label {
+  margin: 10px;
+  font-weight: bold;
+  color: #7e4333;
+}
+.contenedorfomulary button {
+  background-color: #255538;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 20px 5px 20px;
+}
+.contenedorfomulary .button-div {
+  padding-top: 20px;
+  text-align: center;
+}
+footer {
+  grid-area: 4/5/4/1;
+}
+.nav1y2 {
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #255538;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.bitcookb {
+  color: white;
+  font-family: DM Serif Display;
+}
+footer .nav1y2 h3 {
+  color: white;
+  padding-top: 10px;
+  font-family: DM Serif Display;
+}
